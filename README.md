@@ -44,3 +44,18 @@ Now, how do we decide which region is best for our application and/or customers 
 **For more details:** https://aws.amazon.com/about-aws/global-infrastructure/regions_az/
 
 
+## 𝗟𝗘𝗔𝗥𝗡𝗜𝗡𝗚 𝗗𝗔𝗬-𝟯 𝗘𝗱𝗴𝗲 𝗟𝗼𝗰𝗮𝘁𝗶𝗼𝗻𝘀
+
+Yesterday, we learned Proximity to Customers was one of the reasons to choose a Region. 
+
+But, what if we have customers all over the world and we don't have any Regulatory Compliance to follow, or it has to be cheaper in cost or any specific AWS service use case. 
+
+All we need is to reach our customers on time. We obviously can't have our application in multiple regions. So, what should we do?
+
+AWS provides another service called 𝗔𝗪𝗦 𝗖𝗹𝗼𝘂𝗱𝗙𝗿𝗼𝗻𝘁 that gives us the opportunity to use 𝗲𝗱𝗴𝗲 𝗹𝗼𝗰𝗮𝘁𝗶𝗼𝗻𝘀. 
+
+Edge location is a site that AWS CloudFront uses to 𝘀𝘁𝗼𝗿𝗲 𝗰𝗮𝗰𝗵𝗲𝗱 𝗰𝗼𝗽𝗶𝗲𝘀 of our data/content nearer to our customers' location for fastest delivery. 
+
+So, whenever our customer tries to send a request then it fetches the data from the edge location no matter in which region our application is being deployed and data is stored. And, so there will be less to no latency.
+
+
